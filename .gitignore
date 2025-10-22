@@ -1,0 +1,56 @@
+notepad .gitignore
+```
+
+**Press Enter**
+
+---
+
+**Notepad will open and might ask:**
+> "Cannot find the file. Do you want to create a new file?"
+
+**Click "Yes"**
+
+---
+
+### **STEP 3: Paste content into .gitignore**
+
+**Copy this ENTIRE block:**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ML specific - DON'T UPLOAD THESE!
+data/
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pkl
+*.pickle
+
+# Environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.zip
+*.tar.gz
